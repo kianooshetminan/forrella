@@ -40,9 +40,41 @@
     color: #ffe3e1;
     border: 2px solid #ff9494;
 }
-@media (max-width: 728px){
+/* @media (max-width: 728px){
+    #code{
+        display: flex;
+        justify-content: center;
+        margin-top: 0 !important;
+        margin-bottom: 25px;
+    }
     #content{
         display: flex !important;
         flex-direction: column !important;
     }
-}
+    #loveHeart {
+        float: left;
+        width: 420px;
+        height: 375px;
+    }
+    #words {
+        font-family: "sans-serif";
+        width: 100%;
+        font-size: 16px;
+        color: #ff9494;
+        font-weight: 700;
+        position: absolute;
+        top: 500px;
+        left: 0;
+    }
+    #messages{
+        font-size: 16px;
+    }
+    #elapseClock{
+        font-size: 10px;
+    }
+    #loveu{
+        font-size: 14px;
+        text-align: center;
+        margin-right: 0;
+    }
+} */
