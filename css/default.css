@@ -1,0 +1,48 @@
+﻿body{margin:0;padding:0;background-color: #fff5e4;color: #ff9494;;font-size:12px;overflow:auto;font-family: 'Courier New', Courier, monospace;}
+#mainDiv{width:100%;height:100%}
+#loveHeart{float:left;width:670px;height:625px}
+#garden{width:100%;height:100%}
+#elapseClock{text-align:center;font-size:18px;margin-top:10px;margin-bottom:10px}
+#words{font-family:"sans-serif";width:500px;font-size:24px;color:#ff9494;font-weight: 700;}
+#messages{display:none;text-align: center;font-size: 30px;font-weight: 700;}
+#elapseClock .digit{font-family:"digit";font-size:40px;text-align: center;font-weight: 700;}
+#loveu{padding:5px;font-size:22px;margin-top:25px;margin-right:120px;text-align:right;display:none;font-weight: 700;}
+#loveu .signature{margin-top:10px;font-size:20px;font-weight: 700;}
+#clickSound{display:none}
+#code{float:left;width:440px;height:400px;color:#ff9494;font-weight: 700;font-family:"Consolas","Monaco","Bitstream Vera Sans Mono","Courier New","sans-serif";font-size:12px}
+#code .string{color:#ff9494;font-weight: 700;}
+#code .keyword{color:#ff9494;font-weight: 700;}
+#code .placeholder{margin-left:15px}#code .space{margin-left:7px}
+#code .comments{color:#3f7f5f;font-weight: 700;}
+#copyright{margin-top:10px;text-align:center;width:100%;color:#ff9494}
+#errorMsg{width:100%;text-align:center;font-size:24px;position:absolute;top:100px;left:0}
+#copyright a{color:#ff9494;font-weight: 700;}
+#icon{font-size: 48px;color: #ff9494;margin: 50 px; align-content: center;}
+#heartspan{align-content: center;text-align: center;margin: 20px;}
+#mainDiv audio{
+    opacity: 0;
+}
+.btn{
+    padding: 6px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 10px;
+    font-family: "courier";
+    margin-bottom: 10px;
+    background-color: #ffe3e1;
+    color: #e67373;
+    border-radius: 12px;
+    border: 2px solid #ffe3e1;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: #ff9494;
+    color: #ffe3e1;
+    border: 2px solid #ff9494;
+}
+@media (max-width: 728px){
+    #content{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+}
