@@ -1,7 +1,7 @@
 function createSnow() {
     const snow = document.createElement("div");
   
-    snow.innerHTML = "<img id='snowflake' src='https://static.vecteezy.com/system/resources/previews/001/194/635/non_2x/snowflake-png.png'>";
+    snow.innerHTML = "<img id='snowflake' src='https://kianooshetminan.github.io/forrella/Snowflake.png'>";
     snow.classList.add("snow");
   
     document.body.appendChild(snow);
