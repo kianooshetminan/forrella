@@ -40,6 +40,37 @@
     color: #ffe3e1;
     border: 2px solid #ff9494;
 }
+.good-morning{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-image: url(/pixel-hearts.png);
+    background-position: right;
+    background-repeat: repeat;
+    background-size: contain;
+}
+.good-morning p{
+    padding: 20px;
+    border-radius: 99px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #3170df;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.good-morning p:first-child{
+    padding: 20px;
+    border-radius: 99px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #ff44cc;
+}
+.responsive{
+    width: 100px;
+    border-radius: 8px;
+}
 /* @media (max-width: 728px){
     #code{
         display: flex;
