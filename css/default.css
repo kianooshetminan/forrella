@@ -71,6 +71,26 @@
     width: 100px;
     border-radius: 8px;
 }
+
+#snowflake{
+    width: 20px;
+}
+
+.snow {
+  font-size: 20px;
+  position: fixed;
+  top: -5vh;
+  transform: translateY(0);
+   transform : rotate(180deg);
+  animation: fall 7s linear forwards;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(105vh);
+  }
+}
+
 /* @media (max-width: 728px){
     #code{
         display: flex;
